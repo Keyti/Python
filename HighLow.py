@@ -3,6 +3,8 @@
 #Heads/Tails - orzeł czy reszka - komputer oblicza prawdopodobieństwo wypadnięcia orła np. w 100 rzutach i sprawdza, czy jest to zgodne z naszym przewidywaniem(czy zgadliśmy ile razy wypadnie np.orzeł).
 #Oczywiście to są tylko sugestie. Pod tym postem wrzucajcie swoje linki, dzielcie się postępami.
 
+# https://repl.it/@Keyti27/HighLow
+
 import random
 import  os
 
