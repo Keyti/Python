@@ -3,8 +3,6 @@
 #Heads/Tails - orzeł czy reszka - komputer oblicza prawdopodobieństwo wypadnięcia orła np. w 100 rzutach i sprawdza, czy jest to zgodne z naszym przewidywaniem(czy zgadliśmy ile razy wypadnie np.orzeł).
 #Oczywiście to są tylko sugestie. Pod tym postem wrzucajcie swoje linki, dzielcie się postępami.
 
-# https://repl.it/@Keyti27/HighLow
-
 import random
 import  os
 
@@ -38,8 +36,9 @@ numer = random.randint(1,50)
 zgadnij(numer)
 czy = input("Wanna play again? y/n\n")
 
-if czy == "y":
+while czy == "y":
     liczba2 = random.randint(1,50)
     zgadnij(liczba2)
+    czy = input("Wanna play again? y/n\n")
 else:
     print("OK. Thanks for play :)")
