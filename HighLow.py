@@ -4,7 +4,6 @@
 #Oczywiście to są tylko sugestie. Pod tym postem wrzucajcie swoje linki, dzielcie się postępami.
 
 import random
-import  os
 
 def zgadnij(liczba):
     guess = int(input("Guess a number between 1 and 50. You have only 5 chances\n"))
