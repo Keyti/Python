@@ -10,5 +10,7 @@ you=input("When did you birth? (In YYY-MM-DD)\n")
 you_date=datetime.datetime.strptime(you,'%Y-%m-%d')
 you_date2=you_date.date()
 diff=(now-you_date).total_seconds()
+years=diff/60/60/24/365
 print("So your birth date is", you_date2)
+print("You are %d years old" % years)
 print("Wow! You live on the planet Earth for %d seconds now!" % diff)
