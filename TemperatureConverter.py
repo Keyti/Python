@@ -10,8 +10,7 @@
 #Można zrobić też opcję dotyczącą pogody - bardzo mroźno, przymrozek, chłodno, ciepło, gorąco, itd.
 #To oczywiście są tylko moje propozycje.
 
-def temperatury():
-    unit=input("Pick the unit: 'C'elsius or 'F'arenheit\n")
+def temperatury(unit):
     if unit == 'c' or unit == 'C':
         temp = int(input("Write the temperature:\n"))
         fare=32+(9/5*temp)
@@ -30,7 +29,8 @@ def temperatury():
         else:
             print("This is %d Celsius" % celc)
     else:
-        print("Wrong unit. Try again.")
-        temperatury()
-
-temperatury()
+        unitery2=input("Wrong unit. Try again. Pick the unit: 'C'elsius or 'F'arenheit\n")
+        temperatury(unitery2)
+        
+unitery=input("Pick the unit: 'C'elsius or 'F'arenheit\n")
+temperatury(unitery)
