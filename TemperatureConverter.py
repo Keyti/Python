@@ -12,11 +12,11 @@
 
 def temperatury(unit):
     if unit == 'c' or unit == 'C':
-        temp = int(input("Write the temperature:\n"))
+        temp = float(input("Write the temperature:\n"))
         fare=32+(9/5*temp)
         print("This is %d in Fahrenheit" % fare)
     elif unit == 'f' or unit == 'F':
-        temp = int(input("Write the temperature:\n"))
+        temp = float(input("Write the temperature:\n"))
         celc=5/9*(temp-32)
         if celc < -273.15:
             print("The number is incorrect because this temperature is below absolute zero. There can't be %d Celsius!" % celc)
