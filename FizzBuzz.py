@@ -12,7 +12,7 @@ def FizzBuzz():
     for i in range(start, stop + 1, 1):
         lista.append(i)
     print(lista)
-
+    print('\n')
     if stop <= start:
         print("Wrong! Stop number is greater then start one! Try again!")
         FizzBuzz()
@@ -30,6 +30,7 @@ def FizzBuzz():
             else:
                 print(n)
                 lista2.append(n)
+    print("--\n")            
     print(lista2)
 
 print("It's the FizzBuzz game! We will change all numbers divided by 5 with Buzz and all divided by 3 with Fizz")
