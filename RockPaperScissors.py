@@ -10,6 +10,9 @@ import random
 rps = ["Rock", "Paper", "Scissors"]
 
 def RockPaperScissors():
+    print("Paper beats Rock")
+    print("Rock beats Scissors")
+    print("Scissors beats Paper")
     ile = int(input("How many times do you want to play?  "))
     times = 0
     user_win = 0
@@ -57,3 +60,10 @@ def RockPaperScissors():
         print("You win whole game!!")
 
 RockPaperScissors()
+wanna = input("Do you want play again? y/n  ")
+if wanna == 'y' or wanna == "y":
+    RockPaperScissors()
+elif wanna == 'n' or wanna == "N":
+    print("Thanks for playing ;)")
+else:
+    print("You little yoker ;) Bye!")
