@@ -9,6 +9,15 @@ import random
 
 rps = ["Rock", "Paper", "Scissors"]
 
+def wannaplay():
+    wanna = input("Do you want play again? y/n  ")
+    if wanna == 'y' or wanna == "y":
+        RockPaperScissors()
+    elif wanna == 'n' or wanna == "N":
+        print("Thanks for playing ;)")
+    else:
+        print("You little yoker ;) Bye!")
+
 def RockPaperScissors():
     print("Paper beats Rock")
     print("Rock beats Scissors")
@@ -58,12 +67,8 @@ def RockPaperScissors():
         print("You lose whole game :(")
     else:
         print("You win whole game!!")
+    wannaplay()
+
 
 RockPaperScissors()
-wanna = input("Do you want play again? y/n  ")
-if wanna == 'y' or wanna == "y":
-    RockPaperScissors()
-elif wanna == 'n' or wanna == "N":
-    print("Thanks for playing ;)")
-else:
-    print("You little yoker ;) Bye!")
+
