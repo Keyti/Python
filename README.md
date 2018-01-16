@@ -7,4 +7,6 @@ Day 3: <a href="https://repl.it/@Keyti27/AgeInSeconds" target = "_blank">Age in 
 Day 4: <a href="https://repl.it/@Keyti27/TemperatureConverter" target = "_blank">Temperature Convertere</a> <br>
 Day 5: <a href="https://repl.it/@Keyti27/Enigma" target = "_blank">Encrypt / Decrypt Algorithm</a> <br>
 Day 6: <a href="https://repl.it/@Keyti27/FizzBuzz" target = "_blank">Fizz Buzz</a> <br>
-Day 6: <a href="https://repl.it/@Keyti27/RockPaperScissors" target = "_blank">Rock/ Paper / Scissors</a> <br>
+Day 7: <a href="https://repl.it/@Keyti27/RockPaperScissors" target = "_blank">Rock/ Paper / Scissors</a> <br>
+Day 8: <a href="" target = "_blank">Hangman</a> <br>
+Day 9: <a href="https://repl.it/@Keyti27/LoveCalculator" target = "_blank">Love Calculator</a> <br>
