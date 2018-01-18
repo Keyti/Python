@@ -1,0 +1,41 @@
+#Zadanie na dziś: Pseudorandom Sentence Generator - czyli Generator Zdań. Posiłkujemy się modułem random.
+# Myślę, że warto w tym zadaniu wykorzystać plik tekstowy, z którego będą losowane zdania.
+# Taki jest przynajmniej mój pomysł na to zadanie.
+
+import random
+
+file = open("tekst.txt", "r", encoding='utf-8')
+
+p2 = []
+p3 = []
+for line in file:
+    line = line.strip()
+    p2.append(line)
+print(p2)
+file.close()
+# file = open("tekst.txt", "r", encoding='utf-8')
+# for lines in file:
+#     lines = lines.replace(".", "/n")
+#     lines = lines.strip()
+#     p3.append(lines)
+# file.close()
+
+
+def zdania_spacja(p):
+    spacja = []
+    for k in range(3):
+        wybor = random.choice(p)
+        spacja.append(wybor)
+        print(spacja[k])
+
+# def zdania_kropka(p):
+#     kropka = []
+#     for l in range(3):
+#         wybor = random.choice(p)
+#         kropka.append(wybor)
+#         print(kropka[l])
+
+print("Length for space option: ", len(p2))
+# print("Length for dot option: ", len(p3))
+print("Split the file by \ n and random choose and print 3 sentences!\n")
+zdania_spacja(p2)
