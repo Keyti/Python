@@ -10,3 +10,5 @@ Day 6: <a href="https://repl.it/@Keyti27/FizzBuzz" target = "_blank">Fizz Buzz</
 Day 7: <a href="https://repl.it/@Keyti27/RockPaperScissors" target = "_blank">Rock/ Paper / Scissors</a> <br>
 Day 8: <a href="" target = "_blank">Hangman</a> <br>
 Day 9: <a href="https://repl.it/@Keyti27/LoveCalculator" target = "_blank">Love Calculator</a> <br>
+Day 10: <a href="https://repl.it/@Keyti27/SentenceRandomizer" target = "_blank">Sentence Randomizer</a> <br>
+Day 11: <a href="" target = "_blank">Password Generator</a> <br>
