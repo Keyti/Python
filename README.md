@@ -11,4 +11,4 @@ Day 7: <a href="https://repl.it/@Keyti27/RockPaperScissors" target = "_blank">Ro
 Day 8: Hangman<br>
 Day 9: <a href="https://repl.it/@Keyti27/LoveCalculator" target = "_blank">Love Calculator</a> <br>
 Day 10: <a href="https://repl.it/@Keyti27/SentenceRandomizer" target = "_blank">Sentence Randomizer</a> <br>
-Day 11: Password Generator<br>
+Day 11: <a href="https://repl.it/@Keyti27/PasswordGenerator" target="_blank">Password Generator</a><br>
